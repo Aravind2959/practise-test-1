@@ -1,0 +1,8 @@
+name: issues output
+on: workflow_dispatch
+jobs:
+  info:
+    runs-on: ubuntu-latest
+    steps:
+    - name: output-event-issues
+      run: echo "${{toJson(github)}}"
