@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 name: Deploy Project2
+=======
+name: Deploy Project2 lint test deploy
+>>>>>>> b1a4bf91877120e4461074fca5fd1e2bd7f9ed79
 on: [push, workflow_dispatch]
 jobs: 
   lint: 
